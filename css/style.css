@@ -27,9 +27,7 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
@@ -45,7 +43,6 @@ body {
 .logo-header {
   color: #000000;
   font-family: Raleway, sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -197,7 +194,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-logo:hover {
+.footer-logo:hover,
+.footer-logo:focus {
   color: var(--accent-color);
 }
 .address {
